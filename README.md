@@ -1,4 +1,4 @@
-# sibers-test
+# Sibers-test
 Тестовое задание для Sibers (php+mvc+js+css)
 
 # Настройка и установка
