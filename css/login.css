@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/*
+ * login.css - styles for login page
+ *
+ */
+
+.login__box {
+  margin: 0 auto;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.login__box input[type='text'] {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.login__box input[type='password'] {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.login__box .button_green {
+  background: #00b72b;
+  color: #fff;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.login__box .button_green:hover {
+  background: #049c28;
+}
+
+.error {
+  background: #fb5858;
+  color: #222;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ee0000;
+  font-weight: bold;
+  font-size: 14px;
+}

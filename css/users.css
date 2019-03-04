@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/*
+ * users.css - style sheet for users page
+ *
+ */
+
+.table {
+  display: table;
+  table-layout: auto;
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  overflow: none;
+}
+
+.table__header {
+  background: #f6f7fb;
+  line-height: 30px;
+  padding: 5px;
+  display: table-row;
+}
+
+.table__header a {
+  text-decoration: none;
+  color: #656464;
+}
+
+.table__header a:hover {
+  text-decoration: underline;
+}
+
+.table__header .table__cell {
+  font-weight: bold;
+}
+
+.table__row {
+  display: table-row;
+}
+
+.table__row:hover {
+  background: #f8f9fd;
+}
+
+.table__cell {
+  display: table-cell;
+  padding: 15px 10px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #e2e2e8;
+  vertical-align: middle;
+}
+
+.table__row:last-child .table__cell {
+  border: none;
+}
+
+.login {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.login:hover {
+  text-decoration: underline;
+}
+
+.details {
+  color: #3d8cff;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.details:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+form {
+  overflow: hidden;
+}
+
+form input {
+  padding: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.pagination {
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #3089ff;
+  border-radius: 3px;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}

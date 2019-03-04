@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+/*
+ * common.css - basic styles for the site
+ *
+ */
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f6f7fb;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.modal__layout {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+.modal__box {
+  background: #fff;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.modal__header {
+  background: #f83d46;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 15px;
+  line-height: 30px;
+}
+
+.modal__content {
+  padding: 30px 15px;
+  font-size: 15px;
+}
+
+.modal__actions {
+  text-align: right;
+  background: #f6f9fb;
+  border-top: 1px solid #e9edef;
+  padding: 15px;
+}
+
+.modal__actions a {
+  border-radius: 10px;
+  padding: 3px 9px;
+  color: #119ef7;
+  margin-left: 40px;
+  text-decoration: none;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.modal__actions a:hover {
+  background: #e6ecef;
+  color: #000;
+}
+
+header {
+  background: #232652;
+  color: #fff;
+  height: 50px;
+  padding: 0 15px;
+  line-height: 50px;
+  font-weight: bolder;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.header__wrap {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+}
+
+.logo {
+  width: 30%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav {
+  width: 70%;
+  text-align: right;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.page {
+  width: 1000px;
+  height: 100%;
+  padding: 15px;
+  margin: 15px auto;
+
+}
+
+h1 {
+  color: #545656;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#form {
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #aaa;
+  background: #fff;
+}
+
+.button {
+  background: #428bff;
+  padding: 7px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  float: right;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #3479de;
+}
+
+
+.button_grey {
+  background: #efefef;
+  padding: 7px 15px;
+  color: #222;
+  border-radius: 5px;
+  float: right;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px; 
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid #ebedf3;
+  background: #f1f2f9;
+}
